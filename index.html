@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta author="Maria Eduarda">
+    <meta descriptions="Website de viagens">
+    <meta keywords="html,css,javascript,website,site,responsivo,viagens,turismo">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens</title>
+
+    <!-- CSS customizado -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Ícone das redes sociais -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <!-- ===== Barra de navegação fixa, com Menu ===== -->
+        <nav>
+            <div class="logo">Conexão Aventura!</div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#passeios">Passeios</a>
+                <a href="#destinos">Destinos</a>     
+                <a href="#avaliacoes">Avaliações</a>
+            </div>
+
+            <!-- Menu responsivo -->
+             <div class="drop-menu">
+                <div class="drop-button">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                </div>
+                <!-- Conteúdo do submenu -->
+                <div class="drop-content">
+                    <a href="#">Home</a>
+                    <a href="#passeios">Passeios</a>
+                    <a href="#destinos">Destinos</a>     
+                    <a href="#avaliacoes">Avaliações</a>
+                </div>
+    
+             </div>
+        </nav>
+    <!-- ===== Banner e calendário ===== -->
+     <header>
+        <div class="titulo">
+            Amplie seus horizontes! 
+        </div>
+
+        <div class="booking">
+            <form>
+                <div>
+                    <label for="destino"> Para onde vamos? </label>
+                    <input type="text" id="destino">
+                </div>
+
+                <div>
+                    <label for="partida">Quando? </label>
+                    <input type="date" id="partida">
+
+                </div>
+
+                <div>
+                    <label for="retorno"> Retorno </label>
+                    <input type="date" id="Retorno">
+                </div>
+
+                <button type="button">Buscar</button>
+            </form>
+        </div>
+
+     </header>
+
+    <!-- ===== Passeios ===== -->
+        <section class="passeios" id="passeios">
+            <div class="info-passeio">
+                <h1>Próximos Passeios & Destinos</h1>
+
+                <hr>
+
+                <p>
+                    🌍 Descubra Nossos Próximos Passeios & Destinos! 🌍<br> <br>
+
+                    Prepare-se para uma aventura da sua vida! Embarque conosco em experiências incríveis que vão transformar suas férias em momentos inesquecíveis. Nossa equipe selecionou destinos imperdíveis que prometem deslumbrar seus sentidos e deixar você com vontade de explorar ainda mais!
+                </p>
+
+                <button>Saiba mais</button>
+            </div>
+
+            <div class="fotos-passeios">
+                <div class="foto">
+                    <img src="img/img-01.jpg"
+                    alt="Passeio 1">
+                </div>
+
+                <div class="foto">
+                    <img src="img/img-02.jpg"
+                    alt="Passeio 2">
+                </div>
+
+                <div class="foto">
+                    <img src="img/img-03.jpg"
+                    alt="Passeio 3">
+                </div>
+
+                <div class="foto">
+                    <img src="img/img-04.jpg"
+                     alt="Passeio 4">
+                </div>
+
+            </div>
+        </section>
+    <!-- ===== Destinos ===== -->
+        <section class="destinos" id="destinos">
+            <h1>Para onde você quer viajar? </h1>
+
+            <div class="grupo-destinos">
+                <!-- Destino 1 -->
+                 <div class="card-destino">
+                    <img src="img/img-barcelona.jpg" alt="Barcelona">
+
+                    <div>
+                        <span>BARCELONA</span>, ESPANHA
+                        
+                        <p>
+                            Descubra uma cidade vibrante de Barcelona, ​​onde a história se encontra com a modernidade! Admire as obras de Gaudí, como a Sagrada Família e o Parque Güell, e saboreie deliciosas tapas nos bares locais. Relaxe nas belas praias e aproveite a animada vida noturna. 
+                        </p>
+
+                        <div class="valor">
+                            <h3>R$ 3.900,00</h3>
+                            <span>R$ 4.400,00 </span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+
+                    </div>
+                 </div>
+
+                <!-- Destino 2 -->
+
+                <div class="card-destino">
+                    <img src="img/img-china.jpg" alt="Barcelona">
+
+                    <div>
+                        <span>PEQUIM</span>, CHINA
+                        
+                        <p>
+                            Pequim, uma capital vibrante da China, é um destino que combina tradição milenar com uma modernidade pulsante. Ao visitar esta metrópole impressionante, você será transportado por uma jornada.
+                        </p>
+
+                        <div class="valor">
+                            <h3>R$ 5.000,00</h3>
+                            <span>R$ 7.200,00 </span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+
+                    </div>
+                 </div>
+
+                <!-- Destino 3 -->
+
+                <div class="card-destino">
+                    <img src="img/img-EUA.jpg" alt="EUA">
+
+                    <div>
+                        <span>NOVA YORK</span>, EUA
+                        
+                        <p>
+                            Comece sua jornada no coração de Manhattan, onde você poderá visitar museus de renome mundial, como o Museu Metropolitano de Arte e o Museu de Arte Moderna (MoMA). Não perca a chance de explorar a Broadway.
+                        </p>
+
+                        <div class="valor">
+                            <h3>R$ 4.000,00</h3>
+                            <span>R$ 7.400,00 </span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+
+                    </div>
+                 </div>
+
+                <!-- Destino 4 -->
+                <div class="card-destino">
+                    <img src="img/img-italia.jpg" alt="Itália">
+
+                    <div>
+                        <span> ROMA</span>, ITÁLIA
+                        
+                        <p>
+                            Roma é um destino que encanta com sua rica história, cultura vibrante e gastronomia deliciosa. Ao caminhar por suas ruas, você se sentirá transportado no tempo, cercado por monumentos impressionantes e tradições.
+                        </p>
+
+                        <div class="valor">
+                            <h3>R$ 5.500,00</h3>
+                            <span>R$ 8.100,00 </span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+
+                    </div>
+                 </div>
+
+                <!-- Destino 5 -->
+
+                <div class="card-destino">
+                    <img src="img/img-paris.jpg" alt="França">
+
+                    <div>
+                        <span>PARIS</span>, FRANÇA
+                        
+                        <p>
+                            Paris é um destino que encanta com sua elegância, cultura vibrante e gastronomia de classe mundial. Conhecida como a Cidade do Amor, Paris oferece uma experiência única que mistura história, arte e romance.
+                        </p>
+
+                        <div class="valor">
+                            <h3>R$ 4.500,00</h3>
+                            <span>R$ 7.500,00 </span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+
+                    </div>
+                 </div>
+
+                <!-- Destino 6 -->
+
+                <div class="card-destino">
+                    <img src="img/img-rio.jpg" alt="Brasil">
+
+                    <div>
+                        <span>RIO DE JANEIRO</span>, BRASIL
+                        
+                        <p>
+                            O Rio de Janeiro é um destino que encanta com suas paisagens deslumbrantes, cultura vibrante e calor humano. Conhecida como a Cidade Maravilhosa, o Rio oferece uma experiência única, é um caldeirão de culturas e tradições. 
+                        </p>
+
+                        <div class="valor">
+                            <h3>R$ 700,00</h3>
+                            <span>R$ 960,00 </span>
+                        </div>
+
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+
+                    </div>
+                 </div>
+                 
+                 
+
+            </div>
+        </section>
+    <!-- ===== Avaliações ===== -->
+        
+        <section class="avaliacoes" id="avaliacoes">
+            <h1>Avaliações do cliente </h1>
+
+            <div class="carrossel">
+                <div class="cliente">
+                    <p>
+                        "Viajar com esta empresa foi uma experiência incrível! Desde o momento em que reservei minha viagem até o retorno, tudo foi perfeito. O site é super intuitivo e fácil de navegar, permitindo que eu encontre rapidamente as informações que eu preciso. As opções de destinos são variados e atendem a todos os gostos.
+
+
+                    </p>
+                    <img src="img/img-joao.jpg" alt="cliente 1">
+                    <p>
+                        <span> João </span> , Josrnalista
+                    </p>
+                </div>
+
+                <div class="cliente">
+                    <p>
+                        "Estou muito satisfeita com minha experiência de viagem! O site da empresa é excelente, com uma interface intuitiva que torna o planejamento fácil e rápido. A variedade de opções de viagem me surpreendeu, e todos os detalhes foram bem cuidados. Fiquei encantada com a atenção da equipe durante a nossa viagem Foi tudo maravilhoso.
+                    </p>
+                    <img src="img/img-carol.jpg" alt="cliente 2">
+                    <p>
+                        <span> Carol </span> , Administração
+                    </p>
+                </div>
+
+                <div class="cliente">
+                    <p>
+                        "Simplesmente adorei minha viagem com essa empresa! O atendimento ao cliente foi excepcional, sempre pronto para ajudar com qualquer dúvida que eu tivesse. O site é excelente e facilita a reserva de minha viagem. A variedade de pacotes disponíveis é impressionante, e a qualidade dos pacotes serviços superou minhas expectativas. Com certeza, viajarei com eles novamente!"
+                    </p>
+                    <img src="img/img-carlos.webp" alt="cliente 3">
+                    <p>
+                        <span> Carlos </span> , Médico
+                    </p>
+                </div>
+
+                <button class="anterior">&#10094;</button>
+                <button class="proximo">&#10095;</button>
+
+                
+            </div>
+        </section>
+    <!-- ===== Rodapé ===== -->
+
+    <footer>
+        <div class="empresa">
+            <h1 class="logo">Conexão Aventura!</h1>
+            <p>
+                <span Conexão Aventura S.A. ></span>
+                Avenida Tiradentes, 1432 Belo Horizonte, MG
+            </p>
+            <p>
+                Conexão Aventura S.A. &copy; Todos os dirreitos reercados 2024
+            </p>
+        </div>
+
+        <div class="parceiros">
+            <h3>Nossos Parceiros </h3>
+            <P>Grupo Expedia</P>
+            <P> Amadeus</P>
+            <P>Marriott Internacional</P>
+            <P>Hilton em todo o mundo</P>
+            <P>Airbnb</P>
+        </div>
+        <div class="newsletter">
+            <h3>Receba Dicas e Promoções</h3>
+            
+            <div class="input-group">
+                <input type="text" placeholder="Informe seu E-mail">
+                <button>Enviar</button>
+            </div>
+
+            <hr>
+
+            <h3>Siga nossa Redes Sociais </h3>
+
+            <div class="rede-social">
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-facebook' ></i>
+                <i class='bx bxl-twitter' ></i>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="rodape"></div>
+</body>
+
+<script src="js/script.js"></script>
+</html>
