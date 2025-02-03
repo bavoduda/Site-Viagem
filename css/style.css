@@ -99,7 +99,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url('../img/img-p.jpg'); 
+    background-image: url('../img/logo.jpg'); 
     background-size: cover;
     background-position: 50% 50%;
     height: 50vh;
